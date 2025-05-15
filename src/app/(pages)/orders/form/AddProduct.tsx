@@ -1,5 +1,7 @@
-
-const AddProduct = ({closebtn}:any) => {
+interface Close{
+  closebtn:()=>boolean
+}
+const AddProduct = ({closebtn}:Close) => {
 
   return (
 
