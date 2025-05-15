@@ -1,5 +1,5 @@
 interface Close{
-  closebtn:()=>boolean
+  closebtn:()=>void
 }
 const AddUsers = ({closebtn}:Close) => {
 
