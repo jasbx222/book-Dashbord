@@ -19,8 +19,8 @@ const CardsSummary: React.FC<CardsSummaryProps> = ({ items }) => {
   return (
     <div className="flex relative top-12 flex-col md:flex-row gap-4 justify-center items-center w-full">
       {items.map((card, index) => (
-        <Link href={card.href} key={index}>
-          <div className="flex flex-col items-center justify-center w-60 h-44 bg-white rounded-2xl shadow-sm transition-all border-2 border-purple-300">
+      
+          <div key={index} className="flex flex-col items-center justify-center w-60 h-44 bg-white rounded-2xl shadow-sm transition-all border-2 border-purple-300">
             {card.icon && (
               <Image
                 className="mb-3"
@@ -33,7 +33,7 @@ const CardsSummary: React.FC<CardsSummaryProps> = ({ items }) => {
             <div className="text-lg font-semibold">{card.value}</div>
             <div className="text-gray-500 text-sm mt-1">{card.title}</div>
           </div>
-        </Link>
+   
       ))}
     </div>
   );
