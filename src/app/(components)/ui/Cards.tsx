@@ -6,8 +6,7 @@ import Link from "next/link";
 
 interface CardData {
   title: string;
-  value: string;
-  href: string;
+  value: string; 
   icon: string | StaticImageData;
 }
 

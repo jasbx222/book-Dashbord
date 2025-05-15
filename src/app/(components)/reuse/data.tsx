@@ -30,21 +30,20 @@ export   const reports = [
     title: " تقارير الطلبات  ",
     value: "",
     icon: report,
-    href:'/',
+  
     border: true,
   },
   {
     title: "تقارير المنتجات ",
     value: "",
     icon: pro,
-    href:'/',
+
     border: true,
   },
   {
     title: " تقارير الحجوزات",
     value: "",
     icon: add,
-    href:'/',
     border: true,
   },
 ];
